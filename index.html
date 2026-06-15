@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Rohith R, an AIML Engineering student at REVA University. Passionate about Artificial Intelligence, Machine Learning, and Full Stack Web Development. Featuring interactive AI projects.">
+  <meta name="author" content="Rohith R">
+  <meta property="og:title" content="Rohith R | AIML Student & Full-Stack Developer">
+  <meta property="og:description" content="Explore the portfolio of Rohith R, featuring AI projects, interactive games, and creative writing.">
+  <meta property="og:type" content="website">
+  <title>Rohith R | AIML Student & Full-Stack Developer Portfolio</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+  
+  <!-- Animated Background Effect -->
+  <div class="bg-grid-overlay" aria-hidden="true"></div>
+  <div class="glow-orb orb-1" aria-hidden="true"></div>
+  <div class="glow-orb orb-2" aria-hidden="true"></div>
+
+  <!-- Header & Navigation -->
+  <header id="main-header" class="glass-header">
+    <div class="header-container">
+      <a href="#" class="logo" id="logo-link">
+        <span class="logo-accent">&lt;</span>Rohith<span class="logo-accent">.R /&gt;</span>
+      </a>
+      
+      <nav id="nav-menu" class="nav-links">
+        <a href="#about" class="nav-item">About</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#hobbies" class="nav-item">Interests</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle between dark and light theme" title="Toggle theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content scroll-reveal">
+          <div class="badge">AIML Engineering Student</div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Rohith R</span>
+          </h1>
+          <h2 class="hero-subtitle">
+            I am a <span id="typewriter" class="typing-text"></span><span class="cursor" aria-hidden="true">|</span>
+          </h2>
+          <p class="hero-description">
+            Passionate about coding, Artificial Intelligence, and Machine Learning. I love building AI-powered applications, solving complex algorithms, and constantly learning cutting-edge web technologies.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" id="btn-hero-projects">Explore Projects</a>
+            <a href="#contact" class="btn btn-secondary" id="btn-hero-contact">Let's Connect</a>
+          </div>
+        </div>
+        
+        <div class="hero-visual scroll-reveal">
+          <div class="avatar-container">
+            <div class="avatar-glow"></div>
+            <img src="avatar.png" alt="Rohith R avatar drawing, showing a young developer with glasses against a digital AI background" class="avatar-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Education Section -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <div class="section-header scroll-reveal">
+          <span class="section-tag">Profile</span>
+          <h2>About Me & Education</h2>
+          <div class="section-divider"></div>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-text-card glass-card scroll-reveal">
+            <h3>My Journey</h3>
+            <p>
+              I am currently pursuing my B.Tech in <strong>Artificial Intelligence & Machine Learning (AIML)</strong> engineering at <strong>REVA University</strong>. My academic environment fuels my passion for understanding complex mathematical frameworks and converting them into intelligent computational tools.
+            </p>
+            <p>
+              Beyond the core equations, I am deeply drawn to full-stack web development. I believe that AI is most powerful when it is accessible to everyday users through beautiful, intuitive web interfaces.
+            </p>
+            <div class="language-pill-container">
+              <span class="lang-heading">Languages Spoken:</span>
+              <div class="lang-bars">
+                <div class="lang-bar-item">
+                  <span class="lang-name">Kannada</span>
+                  <div class="lang-progress-track" title="Kannada: Fluent">
+                    <div class="lang-progress-fill" style="width: 100%;"></div>
+                  </div>
+                  <span class="lang-percent">Fluent</span>
+                </div>
+                <div class="lang-bar-item">
+                  <span class="lang-name">English</span>
+                  <div class="lang-progress-track" title="English: 85%">
+                    <div class="lang-progress-fill" style="width: 85%;"></div>
+                  </div>
+                  <span class="lang-percent">85%</span>
+                </div>
+                <div class="lang-bar-item">
+                  <span class="lang-name">Hindi</span>
+                  <div class="lang-progress-track" title="Hindi: 85%">
+                    <div class="lang-progress-fill" style="width: 85%;"></div>
+                  </div>
+                  <span class="lang-percent">85%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="education-card glass-card scroll-reveal">
+            <h3>Academic Background</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <span class="timeline-date">Present</span>
+                  <h4>B.Tech in AIML Engineering</h4>
+                  <p class="timeline-sub">REVA University, Bangalore</p>
+                  <p class="timeline-desc">Specializing in Neural Networks, Deep Learning, Algorithmic Analysis, and Data structures. Actively applying AI methodologies to frontend stacks.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <span class="timeline-date">Core Principles</span>
+                  <h4>Discipline & Leadership</h4>
+                  <p class="timeline-sub">Active Cricket Player</p>
+                  <p class="timeline-desc">Playing cricket has taught me collaboration, leadership in tough situations, strategic thinking, and dedication. I bring this athlete's mindset into engineering problems.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <div class="section-header scroll-reveal">
+          <span class="section-tag">Competencies</span>
+          <h2>My Skillset</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="skills-grid scroll-reveal">
+          <div class="skills-category glass-card">
+            <div class="category-header">
+              <div class="category-icon ai-icon"></div>
+              <h3>Programming Languages</h3>
+            </div>
+            <ul class="skills-list">
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>Python</span>
+                  <span class="skill-level">Proficient</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 85%;"></div></div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>JavaScript / TypeScript</span>
+                  <span class="skill-level">Intermediate</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 75%;"></div></div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>C Language</span>
+                  <span class="skill-level">Intermediate</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 70%;"></div></div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>Java</span>
+                  <span class="skill-level">Beginner</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 45%;"></div></div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skills-category glass-card">
+            <div class="category-header">
+              <div class="category-icon web-icon"></div>
+              <h3>Frontend Development</h3>
+            </div>
+            <ul class="skills-list">
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>HTML5 / CSS3</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 90%;"></div></div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>TailwindCSS</span>
+                  <span class="skill-level">Intermediate</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 80%;"></div></div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>React.js</span>
+                  <span class="skill-level">Beginner</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 50%;"></div></div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>Vibe Coding</span>
+                  <span class="skill-level">Enthusiast</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 95%;"></div></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Projects Dashboard -->
+    <section id="projects" class="projects-section section-padding">
+      <div class="container">
+        <div class="section-header scroll-reveal">
+          <span class="section-tag">Interactive Sandbox</span>
+          <h2>Live Projects</h2>
+          <p class="section-subtitle">Interact with fully functional client-side implementations of my work.</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="projects-container glass-card scroll-reveal">
+          <!-- Tab Navigation -->
+          <div class="projects-tabs" role="tablist">
+            <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="proj-grammar" id="tab-grammar">
+              <span class="tab-icon">🎙️</span> Voice Grammar Corrector
+            </button>
+            <button class="tab-btn" role="tab" aria-selected="false" aria-controls="proj-tuition" id="tab-tuition">
+              <span class="tab-icon">📊</span> Tuition CRM Dashboard
+            </button>
+            <button class="tab-btn" role="tab" aria-selected="false" aria-controls="proj-tictactoe" id="tab-tictactoe">
+              <span class="tab-icon">🎮</span> AI Tic-Tac-Toe
+            </button>
+          </div>
+
+          <!-- Tab Panels -->
+          <div class="projects-tab-content">
+            
+            <!-- Project 1: Voice Grammar Corrector -->
+            <div id="proj-grammar" class="tab-panel active" role="tabpanel" aria-labelledby="tab-grammar">
+              <div class="panel-header">
+                <h3>Voice-Activated Grammar Corrector</h3>
+                <p>Speak a sentence into the microphone. This app uses the browser's Web Speech API for speech-to-text, then applies simulated AI correction models to highlight and correct grammatical flaws in real time.</p>
+              </div>
+              
+              <div class="grammar-sandbox">
+                <div class="input-controls">
+                  <button id="btn-mic-start" class="btn btn-mic" aria-label="Start recording speech">
+                    <span class="mic-ripple"></span>
+                    <svg class="mic-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                    <span id="mic-status-text">Click to Speak</span>
+                  </button>
+                  <div class="or-separator">or type your sentence below:</div>
+                  <textarea id="grammar-input-text" placeholder="Type here (e.g. 'He do not has any books because they was stolen')"></textarea>
+                </div>
+                
+                <div class="grammar-actions">
+                  <button id="btn-grammar-correct" class="btn btn-primary">Analyze & Correct</button>
+                  <button id="btn-grammar-clear" class="btn btn-outline">Clear</button>
+                </div>
+
+                <div id="grammar-results-container" class="grammar-results hidden">
+                  <div class="result-box-wrapper">
+                    <h4>Original Sentence:</h4>
+                    <div id="grammar-original-output" class="result-box original-box"></div>
+                  </div>
+                  <div class="result-box-wrapper">
+                    <h4>Grammar Analysis & Correction:</h4>
+                    <div id="grammar-corrected-output" class="result-box corrected-box"></div>
+                  </div>
+                  <div class="analysis-explanation">
+                    <h5>Grammar Rules Highlight:</h5>
+                    <ul id="grammar-explanation-list"></ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2: Tuition CRM Dashboard -->
+            <div id="proj-tuition" class="tab-panel" role="tabpanel" aria-labelledby="tab-tuition">
+              <div class="panel-header">
+                <h3>Tuition Management Dashboard</h3>
+                <p>A compact client-side CRM for managing tuition classes. Add students, track outstanding and collected fees, and view live dynamic charts. Data persists locally.</p>
+              </div>
+
+              <div class="tuition-dashboard-grid">
+                <!-- Dashboard Statistics -->
+                <div class="tuition-stats">
+                  <div class="stat-mini-card">
+                    <span class="stat-label">Total Earnings</span>
+                    <span class="stat-value" id="t-stat-revenue">₹0</span>
+                  </div>
+                  <div class="stat-mini-card">
+                    <span class="stat-label">Active Students</span>
+                    <span class="stat-value" id="t-stat-students">0</span>
+                  </div>
+                  <div class="stat-mini-card">
+                    <span class="stat-label">Collected Fees</span>
+                    <span class="stat-value text-success" id="t-stat-collected">₹0</span>
+                  </div>
+                  <div class="stat-mini-card">
+                    <span class="stat-label">Pending Fees</span>
+                    <span class="stat-value text-danger" id="t-stat-pending">₹0</span>
+                  </div>
+                </div>
+
+                <!-- Dynamic Chart Section -->
+                <div class="tuition-chart-box">
+                  <h4>Fee Collection Rate</h4>
+                  <div class="svg-chart-container">
+                    <svg viewBox="0 0 200 200" class="donut-chart-svg">
+                      <circle cx="100" cy="100" r="75" class="chart-bg" />
+                      <circle cx="100" cy="100" r="75" class="chart-progress" id="t-chart-circle" />
+                    </svg>
+                    <div class="chart-center-text">
+                      <span id="t-chart-percentage">0%</span>
+                      <span class="subtext">Paid</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Add Student Form -->
+                <div class="tuition-form-box">
+                  <h4>Add New Student</h4>
+                  <form id="tuition-form" onsubmit="return false;">
+                    <div class="form-group">
+                      <label for="t-student-name">Student Name</label>
+                      <input type="text" id="t-student-name" required placeholder="e.g. Ramesh Kumar">
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group">
+                        <label for="t-student-class">Class/Grade</label>
+                        <input type="text" id="t-student-class" required placeholder="e.g. 10th Standard">
+                      </div>
+                      <div class="form-group">
+                        <label for="t-student-subject">Subject</label>
+                        <input type="text" id="t-student-subject" required placeholder="e.g. Mathematics">
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group">
+                        <label for="t-student-fee">Monthly Fee (₹)</label>
+                        <input type="number" id="t-student-fee" required min="0" placeholder="e.g. 1500">
+                      </div>
+                      <div class="form-group">
+                        <label for="t-student-status">Payment Status</label>
+                        <select id="t-student-status">
+                          <option value="Paid">Paid</option>
+                          <option value="Pending">Pending</option>
+                        </select>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" id="btn-add-student">Register Student</button>
+                  </form>
+                </div>
+
+                <!-- Student Management Table -->
+                <div class="tuition-table-box">
+                  <div class="table-header-row">
+                    <h4>Registered Students</h4>
+                    <div class="search-bar">
+                      <input type="text" id="t-student-search" placeholder="Search students...">
+                    </div>
+                  </div>
+                  <div class="table-wrapper">
+                    <table id="t-students-table">
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Class</th>
+                          <th>Subject</th>
+                          <th>Fee</th>
+                          <th>Status</th>
+                          <th>Action</th>
+                        </tr>
+                      </thead>
+                      <tbody id="t-students-list">
+                        <!-- Dynamic Student Rows -->
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3: AI Tic-Tac-Toe -->
+            <div id="proj-tictactoe" class="tab-panel" role="tabpanel" aria-labelledby="tab-tictactoe">
+              <div class="panel-header">
+                <h3>AI Tic-Tac-Toe</h3>
+                <p>Challenge "AI Rohith" in a classic match. Built with a Minimax recursive tree algorithm, the AI computes the optimal defensive and offensive moves. Can you find a way to win?</p>
+              </div>
+
+              <div class="ttt-wrapper">
+                <div class="ttt-controls">
+                  <div class="game-mode-toggle">
+                    <button id="btn-ttt-mode-ai" class="btn btn-toggle-switch active">Play against AI</button>
+                    <button id="btn-ttt-mode-local" class="btn btn-toggle-switch">Pass & Play</button>
+                  </div>
+                  <div id="ttt-turn-indicator" class="turn-indicator">Your Turn (X)</div>
+                </div>
+
+                <div class="ttt-game-board">
+                  <div class="ttt-grid" id="ttt-grid-container">
+                    <button class="ttt-cell" data-index="0" aria-label="Cell 0"></button>
+                    <button class="ttt-cell" data-index="1" aria-label="Cell 1"></button>
+                    <button class="ttt-cell" data-index="2" aria-label="Cell 2"></button>
+                    <button class="ttt-cell" data-index="3" aria-label="Cell 3"></button>
+                    <button class="ttt-cell" data-index="4" aria-label="Cell 4"></button>
+                    <button class="ttt-cell" data-index="5" aria-label="Cell 5"></button>
+                    <button class="ttt-cell" data-index="6" aria-label="Cell 6"></button>
+                    <button class="ttt-cell" data-index="7" aria-label="Cell 7"></button>
+                    <button class="ttt-cell" data-index="8" aria-label="Cell 8"></button>
+                  </div>
+                  <!-- Line overlay for strike-through animation -->
+                  <div class="winning-strike-line" id="ttt-strike-line"></div>
+                </div>
+
+                <div class="ttt-scorecard">
+                  <div class="score-box player-score">
+                    <span class="score-label" id="label-player-x">Player (X)</span>
+                    <span class="score-value" id="score-player">0</span>
+                  </div>
+                  <div class="score-box tie-score">
+                    <span class="score-label">Ties</span>
+                    <span class="score-value" id="score-ties">0</span>
+                  </div>
+                  <div class="score-box ai-score">
+                    <span class="score-label" id="label-player-o">AI (O)</span>
+                    <span class="score-value" id="score-opponent">0</span>
+                  </div>
+                </div>
+
+                <div class="ttt-actions">
+                  <button id="btn-ttt-reset" class="btn btn-outline">Reset Board</button>
+                  <button id="btn-ttt-clear-scores" class="btn btn-link">Clear Scoreboard</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kannada Poetry & Creative Interests Section -->
+    <section id="hobbies" class="hobbies-section section-padding">
+      <div class="container">
+        <div class="section-header scroll-reveal">
+          <span class="section-tag">Creative Corner</span>
+          <h2>Poetry & Creative Interests</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="hobbies-grid">
+          <!-- Poetry Box -->
+          <div class="poetry-card glass-card scroll-reveal">
+            <div class="poetry-icon-wrapper">✍️</div>
+            <h3>Kannada Poetry & Hobbies</h3>
+            <p class="poetry-intro">I love writing Kannada poetry and vibe coding in my free time. Here is a piece I wrote reflecting on learning and growth:</p>
+            
+            <div class="poetry-container">
+              <div class="poetry-column kannada">
+                <h4>ಕನ್ನಡ ಕವನ (Original Kannada)</h4>
+                <p class="poem-text">
+                  ಕಲಿಕೆಯ ಹಾದಿಯಲಿ ತಡವರಿಸಿ ನಡೆವಾಗ,<br>
+                  ಬುದ್ಧಿಯ ಬೆಳಕು ಸದಾ ಜೊತೆಯಿರಲಿ.<br>
+                  ಕನಸಿನ ಕಡಲಲಿ ಈಜುವ ಆಸೆಯಿರಲು,<br>
+                  ಸಾಧನೆಯ ಶ್ರಮವೇ ದೋಣಿಯಾಗಲಿ.
+                </p>
+              </div>
+              <div class="poetry-column english">
+                <h4>English Translation</h4>
+                <p class="poem-text">
+                  When faltering on the path of learning,<br>
+                  May the light of intellect guide the way.<br>
+                  When dreaming of swimming across the oceans,<br>
+                  Let the struggle of effort be our vessel.
+                </p>
+              </div>
+            </div>
+            
+            <blockquote class="vibe-quote">
+              "To me, vibe coding is the fusion of logic and lyricism, where code blocks align like lines of a poem."
+            </blockquote>
+          </div>
+
+          <!-- Interests Cards Carousel/Flex -->
+          <div class="creative-cards scroll-reveal">
+            <div class="creative-item glass-card">
+              <div class="creative-emoji">🎨</div>
+              <div>
+                <h4>Drawing</h4>
+                <p>Sketching and designing visual arts. It provides a visual break and helps me design rich, modern layouts for my applications.</p>
+              </div>
+            </div>
+            
+            <div class="creative-item glass-card">
+              <div class="creative-emoji">💃</div>
+              <div>
+                <h4>Dancing & Acting</h4>
+                <p>Performing arts keep me active, expressive, and build confidence when speaking or presenting technical concepts.</p>
+              </div>
+            </div>
+            
+            <div class="creative-item glass-card">
+              <div class="creative-emoji">📚</div>
+              <div>
+                <h4>Reading & Learning</h4>
+                <p>Constantly devouring non-fiction books and scientific papers on artificial intelligence to acquire new engineering skills.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <div class="section-header scroll-reveal">
+          <span class="section-tag">Collaboration</span>
+          <h2>Get In Touch</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info-card glass-card scroll-reveal">
+            <h3>Contact Details</h3>
+            <p>I am always open to discussing web application projects, AI/ML research, internship roles, or poetry. Drop me an email or write a message here!</p>
+            
+            <div class="contact-methods">
+              <div class="method-item">
+                <div class="method-icon">✉️</div>
+                <div class="method-details">
+                  <span>Email ID</span>
+                  <a href="mailto:rohith2518r@gmail.com" class="contact-link" id="mail-link">rohith2518r@gmail.com</a>
+                </div>
+              </div>
+              <div class="method-item">
+                <div class="method-icon">📍</div>
+                <div class="method-details">
+                  <span>Location</span>
+                  <strong>REVA University, Bangalore, India</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-card glass-card scroll-reveal">
+            <h3>Send A Message</h3>
+            <form id="contact-form" onsubmit="return false;">
+              <div class="form-group">
+                <label for="c-name">Your Name</label>
+                <input type="text" id="c-name" required placeholder="e.g. John Doe">
+              </div>
+              <div class="form-group">
+                <label for="c-email">Your Email</label>
+                <input type="email" id="c-email" required placeholder="e.g. john@example.com">
+              </div>
+              <div class="form-group">
+                <label for="c-message">Message</label>
+                <textarea id="c-message" required placeholder="Let's build something awesome..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block" id="btn-submit-contact">Send Message</button>
+            </form>
+            <div id="contact-success-msg" class="contact-success-notification hidden">
+              <span>🎉 Message generated! Opening your mail client to send to <strong>rohith2518r@gmail.com</strong>.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 Rohith R. All rights reserved.</p>
+      <p>Built with Vanilla HTML, CSS, and JS. Inspired by AIML Engineering.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
