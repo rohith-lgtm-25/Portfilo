@@ -3,7 +3,7 @@ services:
     name: rohith-portfolio
     runtime: static
     staticPublishPath: .
-    buildCommand: ""
+    buildCommand: "echo 'Static site - no build required'"
     pullRequestPreviewsEnabled: false
     headers:
       - path: /*
